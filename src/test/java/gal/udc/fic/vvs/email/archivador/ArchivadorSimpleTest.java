@@ -60,13 +60,4 @@ public class ArchivadorSimpleTest {
 		assertEquals(null, archivadorSimple.obtenerDelegado());
 	}
 
-//	@Test
-//	public void establecerDelegadoTest() {
-//		ArchivadorSimple archivadorSimple = new ArchivadorSimple("GMail", 100);
-//		ArchivadorSimple archivadorSimpleDelegado = new ArchivadorSimple("Outlook", 100);
-//		archivadorSimple.establecerDelegado(archivadorSimple);
-//
-//		assertEquals(archivadorSimpleDelegado, archivadorSimple.obtenerDelegado());
-//	}
-
 }
